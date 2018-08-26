@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication", "WebApplication\WebApplication.csproj", "{7133FDFD-B844-4E40-BFD0-05F4B3FF069E}"
+EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "AzureSqlServerRosource", "AzureSqlServerRosource\AzureSqlServerRosource.deployproj", "{3A915B36-BD7B-46A3-B56D-E185BD20C8AB}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7133FDFD-B844-4E40-BFD0-05F4B3FF069E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7133FDFD-B844-4E40-BFD0-05F4B3FF069E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7133FDFD-B844-4E40-BFD0-05F4B3FF069E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7133FDFD-B844-4E40-BFD0-05F4B3FF069E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A915B36-BD7B-46A3-B56D-E185BD20C8AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A915B36-BD7B-46A3-B56D-E185BD20C8AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A915B36-BD7B-46A3-B56D-E185BD20C8AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A915B36-BD7B-46A3-B56D-E185BD20C8AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

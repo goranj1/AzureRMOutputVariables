@@ -396,5 +396,11 @@
         "ApplicationId": "[variables('webSiteName')]"
       }
     }
-  ]
+  ],
+  "outputs": {
+    "AppServiceName": {
+      "type": "string",
+      "value": "variables('webSiteName')"
+    } 
+  }
 }

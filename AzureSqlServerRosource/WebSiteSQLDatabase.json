@@ -400,7 +400,7 @@
   "outputs": {
     "AppServiceName": {
       "type": "string",
-      "value": "variables('webSiteName')"
+      "value": "[variables('webSiteName')]"
     } 
   }
 }
